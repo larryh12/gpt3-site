@@ -17,11 +17,9 @@ import CTA from '@/components/CTA'
 
 const HomePage = () => {
   return (
-    <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
+  <div className="App">
+    <Navbar />
+    <Header />
     <Brand />
     <WhatGPT />
     <Features />

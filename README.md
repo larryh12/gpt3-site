@@ -1,10 +1,9 @@
 ## get the scafhold in page.jsx
 
-    <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
+```jsx
+  <div className="App">
+    <Navbar />
+    <Header />
     <Brand />
     <WhatGPT />
     <Features />
@@ -13,4 +12,4 @@
     <Blog />
     <Footer />
   </div>
-
+```
