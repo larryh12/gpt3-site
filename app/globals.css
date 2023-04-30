@@ -80,7 +80,7 @@ body {
 
 
 
-/* animation */
+/* other supplementary styles */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -91,4 +91,17 @@ body {
   100% {
     transform: scale(1);
   }
+}
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+}
+.section__padding {
+  @apply py-16 px-8 sm:p-16 md:px-24;
+}
+.section__margin {
+  @apply my-16 mx-8 sm:m-16 md:mx-24;
+}
+.gradient__bg {
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 }
