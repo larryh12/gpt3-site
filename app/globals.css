@@ -110,6 +110,27 @@ body {
   @apply flex flex-1 justify-center items-center max-w-[150px] min-w-[120px] m-4 
 }
 
+.gpt3__features-container__feature {
+  @apply w-full flex flex-row justify-between items-start my-4 mx-0 sm:m-4
+}
+.gpt3__features-container__feature-title {
+  @apply flex-1 max-w-[180px] mr-8
+}
+.gpt3__features-container__feature-title h1 {
+  @apply font-extrabold text-sm sm:text-xl text-white tracking-tighter
+}
+.gpt3__features-container__feature-title div {
+  background: var(--gradient-bar);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @apply w-10 h-1 mb-1
+}
+.gpt3__features-container_feature-text {
+  @apply flex flex-[2_2_0%] max-w-[400px]
+}
+.gpt3__features-container_feature-text p {
+  @apply font-medium text-xs leading-4 sm:text-sm text-[var(--color-text)]
+}
+
 /* other supplementary styles */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
