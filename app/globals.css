@@ -119,6 +119,7 @@ body {
 .gradient__text {
   background: var(--gradient-text);
   background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .section__padding {
   @apply py-16 px-8 sm:p-16 md:px-24;
