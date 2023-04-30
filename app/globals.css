@@ -7,7 +7,7 @@
 
   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  
+  --color-accent: #ff4820;
   --color-bg: #040C18;
   --color-footer : #031B34;
   --color-blog: #042c54;
@@ -23,10 +23,67 @@ body {
   @apply box-border p-0 m-0 scroll-smooth
 }
 
+.gpt3__navbar {
+  @apply flex justify-between items-center p-8 sm:px-16 md:px-24
+}
+
+.gpt3__navbar-links {
+  @apply flex flex-1 justify-start items-center
+}
+
+.gpt3__navbar-links_logo {
+  @apply mr-8
+}
+
+.gpt3__navbar-links_logo img {
+  @apply w-16 h-4
+}
+
+.gpt3__navbar-links_container {
+  @apply hidden lg:flex flex-row
+}
+
+.gpt3__navbar-sign {
+  @apply hidden sm:flex justify-end items-center
+}
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
+  @apply text-white font-medium text-lg leading-6 capitalize my-0 mx-4 cursor-pointer
+}
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+  @apply py-2 px-4 text-white bg-[var(--color-accent)] font-medium text-lg leading-6 border-none outline-none cursor-pointer rounded
+}
+
+.gpt3__navbar-menu {
+  @apply ml-4 flex lg:hidden relative
+}
+
+.gpt3__navbar-menu svg {
+  @apply cursor-pointer
+}
+
+.gpt3__navbar-menu_container {
+  @apply flex justify-end items-end flex-col text-end bg-[var(--color-footer)] p-8 absolute right-0 top-5 sm:top-10 mt-4 min-w-[210px] rounded shadow-sm
+}
+
+.gpt3__navbar-menu_container p {
+  @apply my-4 mx-0
+}
+
+.gpt3__navbar-menu_container-links-sign {
+  @apply block sm:hidden
+}
+
+
+
+/* animation */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-
 @keyframes scale-up-center {
   0% {
     transform: scale(0.5);
