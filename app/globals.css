@@ -131,6 +131,39 @@ body {
   @apply font-medium text-xs leading-4 sm:text-sm text-[var(--color-text)]
 }
 
+.gpt3__whatgpt3 {
+  background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  @apply flex flex-col p-8 bg-[var(--color-footer)]
+}
+.gpt3__whatgpt3-feature {
+  @apply flex
+}
+.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+  @apply m-0
+}
+.gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+  @apply max-w-[700px]
+}
+.gpt3__whatgpt3-heading {
+  @apply flex flex-col lg:flex-row justify-between items-start lg:items-center mt-16 mb-0 lg:mb-8 mx-0
+}
+.gpt3__whatgpt3-heading h1 {
+  @apply text-3xl leading-10 md:text-4xl md:leading-[45px] font-extrabold max-w-[510px]
+}
+.gpt3__whatgpt3-heading p {
+  @apply font-medium text-base text-[var(--color-subtext)] cursor-pointer mt-4
+}
+.gpt3__whatgpt3-container {
+  @apply flex flex-wrap flex-row mt-8
+}
+.gpt3__whatgpt3-container .gpt3__features-container__feature {
+  @apply flex flex-col flex-1 my-4 mx-0 sm:m-4 min-w-full sm:min-w-[210px] 
+}
+.gpt3__whatgpt3-container .gpt3__features-container_feature-text {
+  @apply mt-2
+}
+
 /* other supplementary styles */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
