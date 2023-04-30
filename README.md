@@ -101,3 +101,13 @@ const Header = () => (
   </div>
 );
 ```
+
+then style
+
+add gradient layer for landing section
+```jsx
+    <div className="gradient__bg">
+      <Navbar />
+      <Header />
+    </div>
+```
