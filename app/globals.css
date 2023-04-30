@@ -103,6 +103,12 @@ body {
   @apply w-full h-full
 }
 
+.gpt3__brand {
+  @apply flex flex-wrap justify-center items-center
+}
+.gpt3__brand div {
+  @apply flex flex-1 justify-center items-center max-w-[150px] min-w-[120px] m-4 
+}
 
 /* other supplementary styles */
 .scale-up-center {
