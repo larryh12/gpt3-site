@@ -66,6 +66,42 @@ body {
   @apply block sm:hidden
 }
 
+.gpt3__header {
+  @apply flex flex-col lg:flex-row
+}
+.gpt3__header-content {
+  @apply flex flex-1 justify-center items-start flex-col m-0 mb-12 lg:mr-20
+}
+.gpt3__header-content h1 {
+  @apply font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tighter
+}
+.gpt3__header-content p {
+  @apply font-normal text-sm sm:text-base md:text-xl text-[var(--color-text)] mt-6
+}
+.gpt3__header-content__input {
+  @apply w-full mt-8 mb-4 mx-0 flex flex-row
+}
+.gpt3__header-content__input input {
+  @apply flex-[2_2_0%] w-full min-h-[50px] font-normal text-xs sm:text-base md:text-xl bg-[var(--color-footer)] border-2 border-solid border-[var(--color-footer)] rounded-tl rounded-bl py-0 px-4 outline-none text-white
+}
+.gpt3__header-content__input button {
+  @apply flex-[0.6_0.6_0%] w-full min-h-[50px] font-normal text-xs sm:text-base md:text-xl bg-[var(--color-accent)] border-2 border-solid border-[var(--color-accent)] rounded-tr rounded-br py-0 px-4 text-white outline-none cursor-pointer
+}
+.gpt3__header-content__people {
+  @apply w-full flex flex-col md:flex-row justify-start items-center mt-8
+}
+.gpt3__header-content__people img {
+  @apply w-48 h-10
+}
+.gpt3__header-content__people p {
+  @apply m-0 md:ml-4 font-medium text-sm leading-10 text-white text-center
+}
+.gpt3__header-image {
+  @apply flex flex-1 justify-center items-center
+}
+.gpt3__header-image img {
+  @apply w-full h-full
+}
 
 
 /* other supplementary styles */
