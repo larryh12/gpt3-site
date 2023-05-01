@@ -73,7 +73,7 @@ body {
   @apply flex flex-1 justify-center items-start flex-col m-0 mb-12 lg:mr-20
 }
 .gpt3__header-content h1 {
-  @apply font-extrabold text-4xl sm:text-5xl md:text-6xl tracking-tighter
+  @apply font-extrabold text-4xl sm:text-5xl md:text-6xl
 }
 .gpt3__header-content p {
   @apply font-normal text-sm sm:text-base md:text-xl text-[var(--color-text)] mt-6
@@ -117,7 +117,7 @@ body {
   @apply flex-1 max-w-[180px] mr-8
 }
 .gpt3__features-container__feature-title h1 {
-  @apply font-extrabold text-sm sm:text-xl text-white tracking-tighter
+  @apply font-extrabold text-sm sm:text-xl text-white
 }
 .gpt3__features-container__feature-title div {
   background: var(--gradient-bar);
@@ -202,7 +202,7 @@ body {
   @apply font-extrabold text-4xl leading-[45px] my-4 mx-0
 }
 .gpt3__possibility-content p {
-  @apply text-[var(--color-text)] font-normal text-base leading-[30px] mb-6
+  @apply text-[var(--color-text)] font-normal text-base mb-6 lg:text-lg
 }
 
 .gpt3__cta {
