@@ -114,7 +114,7 @@ body {
   @apply w-full flex flex-row justify-between items-start my-4 mx-0 sm:m-4
 }
 .gpt3__features-container__feature-title {
-  @apply flex-1 max-w-[180px] mr-8
+  @apply flex-1 max-w-[250px] mr-8
 }
 .gpt3__features-container__feature-title h1 {
   @apply font-extrabold text-sm sm:text-xl text-white
@@ -125,7 +125,7 @@ body {
   @apply w-10 h-1 mb-1
 }
 .gpt3__features-container_feature-text {
-  @apply flex flex-[2_2_0%] max-w-[400px]
+  @apply flex flex-[2_2_0%] max-w-[450px]
 }
 .gpt3__features-container_feature-text p {
   @apply font-medium text-xs leading-4 sm:text-sm text-[var(--color-text)]
@@ -140,10 +140,10 @@ body {
   @apply flex
 }
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
-  @apply m-0
+  @apply flex-col md:flex-row m-0
 }
 .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
-  @apply max-w-[700px]
+  @apply max-w-[700px] mt-2
 }
 .gpt3__whatgpt3-heading {
   @apply flex flex-col lg:flex-row justify-between items-start lg:items-center mt-16 mb-0 lg:mb-8 mx-0
@@ -178,6 +178,9 @@ body {
 }
 .gpt3__features-container {
   @apply flex flex-col flex-[1.5_1.5_0%] justify-start items-center
+}
+.gpt3__features-container .gpt3__features-container__feature {
+  @apply flex-col md:flex-row
 }
 
 .gpt3__possibility {
