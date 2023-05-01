@@ -180,6 +180,31 @@ body {
   @apply flex flex-col flex-[1.5_1.5_0%] justify-start items-center
 }
 
+.gpt3__possibility {
+  @apply flex flex-col lg:flex-row
+}
+.gpt3__possibility-image {
+  @apply flex flex-1 justify-start items-center my-4 mx-0 lg:mr-8
+}
+.gpt3__possibility-image img {
+  @apply w-full h-full my-4 mx-0
+}
+.gpt3__possibility-content {
+  @apply flex flex-col flex-1 justify-end items-start
+}
+.gpt3__possibility-content h4 {
+  @apply font-medium text-[#71E5FF] text-base leading-[30px]
+}
+.gpt3__possibility-content h4:last-child {
+  @apply text-[#ff8A71]
+}
+.gpt3__possibility-content h1 {
+  @apply font-extrabold text-4xl leading-[45px] my-4 mx-0
+}
+.gpt3__possibility-content p {
+  @apply text-[var(--color-text)] font-normal text-base leading-[30px] mb-6
+}
+
 /* other supplementary styles */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
