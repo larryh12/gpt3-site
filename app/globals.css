@@ -224,6 +224,28 @@ body {
   @apply bg-black text-white font-bold text-sm leading-7 sm:text-lg sm:leading-[30px] py-2 px-4 rounded-full border-none outline-none cursor-pointer min-w-[150px]
 }
 
+.gpt3__blog-container_article {
+  @apply w-full h-full flex flex-col bg-[var(--color-footer)]
+}
+.gpt3__blog-container_article-image {
+  @apply w-full h-full bg-[var(--color-bg)]
+}
+.gpt3__blog-container_article-image img {
+  @apply w-full h-full
+}
+.gpt3__blog-container_article-content {
+  @apply flex flex-col justify-between py-4 px-6 h-full
+}
+.gpt3__blog-container_article-content p {
+  @apply text-xs leading-[35px] font-bold text-white
+}
+.gpt3__blog-container_article-content h3 {
+  @apply text-lg sm:text-2xl font-extrabold text-white mb-20 cursor-pointer
+}
+.gpt3__blog-container_article-content p:last-child {
+  @apply cursor-pointer
+}
+
 /* other supplementary styles */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
