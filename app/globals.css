@@ -205,6 +205,25 @@ body {
   @apply text-[var(--color-text)] font-normal text-base leading-[30px] mb-6
 }
 
+.gpt3__cta {
+  @apply flex justify-between items-center flex-col md:flex-row p-8 my-16 mx-8 sm:m-16 rounded-2xl bg-gradient-to-r from-purple-500 to-orange-400
+}
+.gpt3__cta-content {
+  @apply flex flex-col text-left text-white
+}
+.gpt3__cta-content p {
+  @apply text-base font-medium
+}
+.gpt3__cta-content h3 {
+  @apply text-lg sm:text-2xl font-extrabold my-4 lg:my-2
+}
+.gpt3__cta-btn {
+  @apply flex justify-center items-center m-0 mt-2 md:ml-8
+}
+.gpt3__cta-btn button {
+  @apply bg-black text-white font-bold text-sm leading-7 sm:text-lg sm:leading-[30px] py-2 px-4 rounded-full border-none outline-none cursor-pointer min-w-[150px]
+}
+
 /* other supplementary styles */
 .scale-up-center {
 	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
