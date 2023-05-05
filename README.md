@@ -1,5 +1,7 @@
 # GPT-3 Landing Page
 
+<img src='docs/thumbnail.jpg'>
+
 A re-creation of a modern front-end web design with the concept of OpenAI's GPT model, built with:
 
 - [Next.js 13](https://nextjs.org/docs)
@@ -11,6 +13,8 @@ A re-creation of a modern front-end web design with the concept of OpenAI's GPT 
 ## Design Overview
 
 ### Landing Section
+
+<img src='docs/landing.png'>
 
 The `<Navbar />` component on the top consists of 3 parts: the GPT logo, the nav links, and the buttons for signing.
 
@@ -29,6 +33,9 @@ The `<Header />` section consists of 2 main parts: the text content on the left,
 
 ### What is GPT Section
 
+<img src='docs/whatgpt.png'>
+
+
 The `<Brand />` section on the top is simply a container of brand png logos with `flex-wrap`, `justify-center`, and `items-center`
 
 In this section we create a new `<Feature />` component to render the feature info. This component consists of: a gradient-bar, a *(feature)* title, and a *(feature)* text.
@@ -43,6 +50,8 @@ We divine this section into 3 vertical parts: a top `<Feature />` comp, a middle
 
 ### More Features Section
 
+<img src='docs/features.png'>
+
 This section consists of 2 parts: text content and features container, which will make use of the `<Feature />` comp that we created in the earlier section.
 
 - The section container is set to flex horizontally on wide screen and vertically on small screen.
@@ -50,6 +59,8 @@ This section consists of 2 parts: text content and features container, which wil
 - Other than that, we use the same gradient for the header text.
 
 ### Possibility Section
+
+<img src='docs/possibility.png'>
 
 The `<Possibility />` section consists of 2 parts: a graphic png on the left and the text content on the right. It also follow the same principle: `flex-row` on wide screen and `flex-col` on small screen.
 
@@ -59,6 +70,8 @@ The `<CTA />` section simply includes the "register" text and the "Get started" 
 - The button inside is simply `rounded-full` and have `border-none`
 
 ### Blog Section
+
+<img src='docs/blog.png'>
 
 In this section, we create a new `<Article />` component to render the article card.
 
@@ -72,6 +85,8 @@ The blog section consists of a heading text and the blog container.
 - The `<Article />` comps in `groupB` are set to `grid` display. On medium and wide screen, they have `grid-cols-2` layout. On small screen, they have `grid-cols-1` which is similar to a `flex-col` layout.
 
 ### Footer Section
+
+<img src='docs/footer.png'>
 
 This section consists of 3 parts: a heading text, a request button, and finally the links section. They are in `flex-col` regardless of screen size.
 
