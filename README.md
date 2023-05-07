@@ -2,9 +2,9 @@
 
 <img src='docs/thumbnail.jpg'>
 
-A re-creation of a modern front-end web design with the concept of OpenAI's GPT model, built with:
+A re-creation of a modern front-end UI/UX web design with the theme of OpenAI's GPT model, built with:
 
-- [Next.js 13](https://nextjs.org/docs)
+- [Next.js](https://nextjs.org/docs)
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Tailwind CSS](https://tailwindcss.com/)
 
@@ -101,8 +101,7 @@ This section consists of 3 parts: a heading text, a request button, and finally 
 <details>
 <summary>Credits</summary>
 
-[@adrianhajdin](https://github.com/adrianhajdin) | [GitHub](https://github.com/adrianhajdin/project_modern_ui_ux_gpt3)
-
-[AR Shakir Design](https://www.arshakir.com/) | [Figma](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/)
+[@adrianhajdin GitHub Repo](https://github.com/adrianhajdin/project_modern_ui_ux_gpt3) |
+[AR Shakir Figma Design](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z)
 
 </details>
