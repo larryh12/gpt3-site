@@ -1,6 +1,6 @@
-# GPT-3 Landing Page
+# GPT-3 Website
 
-<img src='docs/thumbnail.jpg'>
+<img src='docs/thumbnail.png'>
 
 A re-creation of a modern front-end UI/UX web design with the theme of OpenAI's GPT model, built with:
 
@@ -12,7 +12,7 @@ A re-creation of a modern front-end UI/UX web design with the theme of OpenAI's 
 
 ## Design Overview
 
-### Landing Section
+### Hero Section
 
 <img src='docs/landing.png'>
 
