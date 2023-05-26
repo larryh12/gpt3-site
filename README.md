@@ -1,4 +1,4 @@
-# GPT-3 Website
+# GPT-3
 
 <img src='docs/thumbnail.png'>
 
