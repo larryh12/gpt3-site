@@ -2,7 +2,7 @@
 
 <img src='docs/thumbnail.png'>
 
-A re-creation of a modern front-end web design with the theme of OpenAI's GPT-3, built with:
+A re-creation of a modern front-end web design with the concept of OpenAI's GPT-3, built with:
 
 - [Next.js](https://nextjs.org/docs)
 - [React](https://reactjs.org/docs/getting-started.html)
