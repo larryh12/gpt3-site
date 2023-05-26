@@ -8,7 +8,7 @@ A re-creation of a modern front-end UI/UX web design with the theme of OpenAI's 
 - [React](https://reactjs.org/docs/getting-started.html)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-**See it [LIVE](https://gpt-site-larryh12.vercel.app/)** 👈
+**See it [LIVE](https://gpt3-larryh12.vercel.app/)** 👈
 
 ## Design Overview
 
