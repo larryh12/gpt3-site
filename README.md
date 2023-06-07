@@ -1,16 +1,16 @@
 # GPT-3
 
-<img src='docs/thumbnail.png'>
+![og](docs/_og.png)
 
-A re-creation of a modern front-end web design with the concept of OpenAI's GPT-3, built with:
+---
 
-- [Next.js](https://nextjs.org/docs)
-- [React](https://reactjs.org/docs/getting-started.html)
+## Built with:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-**See it [LIVE](https://gpt3-larryh12.vercel.app/)** 👈
-
-## Design Overview
+## Design Breakdown
 
 ### Hero Section
 
@@ -98,10 +98,16 @@ This section consists of 3 parts: a heading text, a request button, and finally 
   - On small screen, the container is set to flex vertically and fill the full width of the screen.
   - The individual link makes use of `<p>` element with `cursor-pointer` style. They are always in `flex-col` regardless of screen size.
 
+<br/>
+
+---
+
 <details>
 <summary>Credits</summary>
 
-[@adrianhajdin GitHub Repo](https://github.com/adrianhajdin/project_modern_ui_ux_gpt3) |
-[AR Shakir Figma Design](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z)
+
+- [JS Mastery YouTube video](https://www.youtube.com/watch?v=LMagNcngvcU)
+- [@adrianhajdin GitHub source](https://github.com/adrianhajdin/project_modern_ui_ux_gpt3)
+- [AR Shakir Figma design](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z)
 
 </details>
