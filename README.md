@@ -4,7 +4,7 @@
 
 ---
 
-## Built with:
+I learned to build a modern UI/UX website with:
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
@@ -14,7 +14,7 @@
 
 ### Hero Section
 
-<img src='docs/landing.png'>
+<img src='docs/hero.png'>
 
 The `<Navbar />` component on the top consists of 3 parts: the GPT logo, the nav links, and the buttons for signing.
 
